@@ -25,5 +25,8 @@ public class HomeController {
         return "Hello153, Git with Spring Boot";
     }
 
-
+    @GetMapping("/hello143")
+    public String hello143() {
+        return "Hello143, Git with Spring Boot";
+    }
 }
