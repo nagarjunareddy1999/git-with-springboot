@@ -9,4 +9,9 @@ public class HomeController {
     public String welcome() {
         return "Welcome to Git with Spring Boot";
     }
+
+    @GetMapping("/hello")
+    public String hello() {
+        return "Hello, Git with Spring Boot";
+    }
 }
